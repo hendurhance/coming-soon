@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px){
+    .row{
+        display: block !important;
+        width: 100%;
+    }
+
+    .col-right, .col-left{
+        float: none;
+        width: 100%;
+    }
+    .counter{
+        display: flex !important;
+        width: 100%;
+    }
+    .counter-box{
+        margin: 0 3px 0 3px;
+        min-height: 80px;
+        min-width: 80px;
+        border-width: 3px;
+    }
+    .counter-no{
+        font-size: 1.4em;
+    }
+
+    .counter-text{
+        font-size: 0.8em;
+    }
+    .socio{
+        margin-top: 10px;
+    }
+    
+    .socio a{
+        display: block;
+        margin-top: 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 640px){
+    .form-sub{
+        margin-left: -5px;
+    }
+    .submit-btn{
+        padding: 17.5px 21px;
+    }
+}
